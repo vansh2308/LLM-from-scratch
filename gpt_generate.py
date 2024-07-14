@@ -280,7 +280,7 @@ if __name__ == "__main__":
     torch.manual_seed(123)
 
     CHOOSE_MODEL = "gpt2-small (124M)"
-    INPUT_PROMPT = "A heartbroken man"
+    INPUT_PROMPT = input()
 
     BASE_CONFIG = {
         "vocab_size": 50257,     # Vocabulary size
